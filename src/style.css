@@ -1,0 +1,21 @@
+form > * {
+  margin-top: 0.5rem;
+}
+
+form > *:not(button) {
+  @media (min-width: 576px) {
+    min-width: 325px;
+  }
+  @media (min-width: 768px) {
+    min-width: 350px;
+  }
+  @media (min-width: 992px) {
+    min-width: 450px;
+  }
+}
+
+form > button {
+  @media (max-width: 576px) {
+    width: 100%;
+  }
+}
